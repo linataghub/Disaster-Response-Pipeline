@@ -37,6 +37,10 @@ The process is divided in three parts:
 - run.py: flask web app to visualise the data 
 - templates: html templates
 
+**Main Folder**
+- ETL Pipeline Preparation Notebook
+- ML Pipeline Notebook
+
 
 
 
