@@ -23,6 +23,23 @@ The process is divided in three parts:
 
 # Files description 
 
+**Data Folder** 
+- disaster_categories.csv: Raw categories data
+- disaster_messages.csv: Raw message data 
+- DisasterResponse.db: Database to store the clean data 
+- process_data.py - ETL pipeline to clean the data to clean the dataset and then store it in a SQLite database
+
+**Model Folder** 
+- train_classifier.py: ML pipeline that uses the disaster message column to predict multi-output classifications
+- classifier.pkl: Saved model after running the ML pipeline
+
+**App Folder** 
+- run.py: flask web app to visualise the data 
+- templates: html templates
+
+
+
+
 
 
 
